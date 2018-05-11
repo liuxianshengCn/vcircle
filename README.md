@@ -1,4 +1,5 @@
 # vcircle
 
-### 打包命令
-mvn clean package -Dmaven.test.skip=true
+### 项目介绍
+> vcircle	V圈服务端代码
+> vcircle-h5 V圈前端代码
