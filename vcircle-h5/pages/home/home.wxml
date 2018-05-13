@@ -1,0 +1,97 @@
+<!--home.wxml-->
+<view class='page_row' bindtap="suo">
+  <view class="search">
+    <view class="df search_arr">
+      <icon class="searchcion" size='20' type='search'></icon>
+      <input class="" disabled placeholder="请输入分组、姓名、手机号" value="{{searchValue}}" />
+    </view>
+  </view>
+  <view class='sousuo'>搜索</view>
+</view>
+<!--最外层-->
+<view class="home-view1">
+  <!--图片层-->
+  <view class="home-view2">
+    <image class="home-image1" src="../../images/head.jpg"></image>
+    <!--<text class="home-text1">老王</text>-->
+    <view class="home-view3">
+      <view class="home-view4">
+        <image class="home-image-heart" src="../../images/ico-save.png"></image>
+
+        <text class="home-text1"> 老王</text>
+      </view>
+      <text class="home-text-time">13878900987</text>
+    </view>
+    <view class="home-view3">
+      <view class="home-view4">
+
+        <text class="home-text-heart bgColor"> 1</text>
+      </view>
+      <text class="home-text-time">销售经理</text>
+    </view>
+    <view class="home-view3">
+      <view class="home-view4">
+
+        <text class="home-text-heart bgColor"> 2</text>
+      </view>
+      <text class="home-text-time">房地产</text>
+    </view>
+  </view>
+
+
+  <!--分界线line-->
+  <!--<view class="home-view-line"></view>-->
+
+
+  <view class="home-view2">
+    <image class="home-image1" src="../../images/head.jpg"></image>
+    <!--<text class="home-text1">老王</text>-->
+    <view class="home-view3">
+      <view class="home-view4">
+        <image class="home-image-heart" src="../../images/ico-save.png"></image>
+
+        <text class="home-text1"> 老李</text>
+      </view>
+      <text class="home-text-time">13878900987</text>
+    </view>
+    <view class="home-view3">
+      <view class="home-view4">
+
+        <text class="home-text-heart bgColor"> 1</text>
+      </view>
+      <text class="home-text-time">客服经理</text>
+    </view>
+    <view class="home-view3">
+      <view class="home-view4">
+
+        <text class="home-text-heart bgColor"> 2</text>
+      </view>
+      <text class="home-text-time">卖车</text>
+    </view>
+  </view>
+
+
+
+  <!--&lt;!&ndash;图片层(下面的代码直接复制了上面的所有布局代码)&ndash;&gt;-->
+  <!--<view class="home-view2">-->
+    <!--<image class="home-image1" src="../../images/head.jpg"></image>-->
+  <!--</view>-->
+
+  <!--&lt;!&ndash;描述层&ndash;&gt;-->
+  <!--<text class="home-text1">张三  销售</text>-->
+  <!--<text class="home-text-time">13867899876</text>-->
+  <!--&lt;!&ndash;信息层&ndash;&gt;-->
+  <!--<view class="home-view3">-->
+    <!--<view class="home-view4">-->
+      <!--<image class="home-image-heart" src="../../images/ico-save.png"></image>-->
+
+      <!--<text class="home-text-heart bgColor"> 22</text>-->
+    <!--</view>-->
+    <!--<text class="home-text-time">2016.10.29</text>-->
+  <!--</view>-->
+
+  <!--&lt;!&ndash;分界线line&ndash;&gt;-->
+  <!--<view class="home-view-line"></view>-->
+  <button class="buttomAdd" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="add"> 添加名片 </button>
+</view>
